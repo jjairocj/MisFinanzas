@@ -13,6 +13,7 @@ namespace MisFinanzas.Web
             //~/Bundles/vendor/css
             bundles.Add(
                 new StyleBundle("~/Bundles/vendor/css")
+
                     .Include("~/Content/themes/base/all.css", new CssRewriteUrlTransform())
                     .Include("~/Content/bootstrap-cosmo.min.css", new CssRewriteUrlTransform())
                     .Include("~/Content/toastr.min.css", new CssRewriteUrlTransform())
@@ -48,7 +49,6 @@ namespace MisFinanzas.Web
                         "~/Scripts/sweetalert/sweet-alert.min.js",
                         "~/Scripts/others/spinjs/spin.js",
                         "~/Scripts/others/spinjs/jquery.spin.js",
-
                         "~/Abp/Framework/scripts/abp.js",
                         "~/Abp/Framework/scripts/libs/abp.jquery.js",
                         "~/Abp/Framework/scripts/libs/abp.toastr.js",
