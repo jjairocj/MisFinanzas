@@ -1,0 +1,494 @@
+DEBUG 2017-04-17 12:19:52,045 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-04-17 12:19:52,059 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-04-17 12:19:52,064 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MisFinanzas.Web.MisFinanzasWebModule, MisFinanzas.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:19:52,065 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MisFinanzas.MisFinanzasDataModule, MisFinanzas.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:19:52,066 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:19:52,066 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:19:52,066 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:19:52,066 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:19:52,066 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MisFinanzas.MisFinanzasCoreModule, MisFinanzas.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:19:52,067 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MisFinanzas.MisFinanzasApplicationModule, MisFinanzas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:19:52,067 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:19:52,067 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MisFinanzas.Api.MisFinanzasWebApiModule, MisFinanzas.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:19:52,067 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:19:52,067 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:19:52,067 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:19:52,067 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:19:52,068 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:19:52,071 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-04-17 12:19:52,829 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-17 12:19:52,829 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-17 12:19:52,829 [1    ] o.Configuration.LanguageManagementConfig - Converted MisFinanzas (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-17 12:19:52,829 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-17 12:19:53,304 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MisFinanzas.EntityFramework.MisFinanzasDbContext, MisFinanzas.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:19:56,319 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-04-17 12:19:56,341 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-04-17 12:19:56,343 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-04-17 12:19:56,346 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MisFinanzas
+DEBUG 2017-04-17 12:19:56,347 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-04-17 12:19:56,446 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-04-17 12:19:56,522 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-04-17 12:19:56,522 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MisFinanzas.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-04-17 12:19:56,527 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MisFinanzas.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-04-17 12:19:56,527 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MisFinanzas.Users.Dto.CreateUserInput
+DEBUG 2017-04-17 12:19:56,527 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MisFinanzas.Users.Dto.UserListDto
+DEBUG 2017-04-17 12:19:56,528 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MisFinanzas.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-04-17 12:19:56,528 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MisFinanzas.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-04-17 12:19:56,528 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MisFinanzas.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-04-17 12:19:58,600 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MisFinanzas.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-04-17 12:19:58,602 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MisFinanzas.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-04-17 12:19:58,603 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MisFinanzas.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-04-17 12:19:58,604 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MisFinanzas.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-04-17 12:20:48,787 [8    ] Abp.BackgroundJobs.BackgroundJobManager  - Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate MisFinanzas.EntityFramework.MisFinanzasDbContext ---> System.Reflection.TargetInvocationException: Se produjo una excepción en el destino de la invocación. ---> System.Data.SqlClient.SqlException: CREATE DATABASE statement not allowed within multi-statement transaction.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   en System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   en System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   en System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass1a.<CreateDatabaseFromScript>b__19(DbConnection conn)
+   en System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass33.<UsingConnection>b__32()
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   en System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   en System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   en System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   en System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   en System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   en System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   en System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   en System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   en System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   en System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   en System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   en System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   en System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   en System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   en System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   en System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   en System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   en System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   en System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   en System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   en System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   en System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   en Abp.EntityFramework.AbpDbContext.RegisterToChanges()
+   en Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString)
+   en MisFinanzas.EntityFramework.MisFinanzasDbContext..ctor(String nameOrConnectionString) en C:\Users\Jairo\Documents\Visual Studio 2017\Projects\MisFinanzas\MisFinanzas.EntityFramework\EntityFramework\MisFinanzasDbContext.cs:línea 29
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   en System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   en Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   en Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   en Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   en Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   en Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   en Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   en Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   en Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   en Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   en Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   en Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   en Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   en Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   en Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   en Castle.Windsor.WindsorContainer.Resolve(Type service, IDictionary arguments)
+   en Castle.Windsor.WindsorContainer.Resolve(Type service, Object argumentsAsAnonymousType)
+   en Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   en Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   en Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   en Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide)
+   en Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide)
+   en Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   en Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context_callback()
+   en Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_3.InvokeMethodOnTarget()
+   en Castle.DynamicProxy.AbstractInvocation.Proceed()
+   en Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   en Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   en Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   en Castle.DynamicProxy.AbstractInvocation.Proceed()
+   en Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context()
+   en Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   en Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table_callback()
+   en Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_3.InvokeMethodOnTarget()
+   en Castle.DynamicProxy.AbstractInvocation.Proceed()
+   en Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   en Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   en Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   en Castle.DynamicProxy.AbstractInvocation.Proceed()
+   en Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table()
+   en Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll_callback()
+   en Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_3.InvokeMethodOnTarget()
+   en Castle.DynamicProxy.AbstractInvocation.Proceed()
+   en Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   en Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   en Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   en Castle.DynamicProxy.AbstractInvocation.Proceed()
+   en Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll()
+   en Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   en Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   en Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   en Castle.DynamicProxy.AbstractInvocation.Proceed()
+   en Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   en Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   en Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   en Castle.DynamicProxy.AbstractInvocation.Proceed()
+   en Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   en Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__13_0()
+   en System.Threading.Tasks.Task`1.InnerInvoke()
+   en System.Threading.Tasks.Task.Execute()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   en Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   en System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   en System.Threading.Tasks.Task.Execute()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   en Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   en Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   en Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate MisFinanzas.EntityFramework.MisFinanzasDbContext ---> System.Reflection.TargetInvocationException: Se produjo una excepción en el destino de la invocación. ---> System.Data.SqlClient.SqlException: CREATE DATABASE statement not allowed within multi-statement transaction.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   en System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   en System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   en System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass1a.<CreateDatabaseFromScript>b__19(DbConnection conn)
+   en System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass33.<UsingConnection>b__32()
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   en System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   en System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   en System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   en System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   en System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   en System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   en System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   en System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   en System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   en System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   en System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   en System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   en System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   en System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   en System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   en System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   en System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   en System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   en System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   en System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   en System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   en System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   en System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   en Abp.EntityFramework.AbpDbContext.RegisterToChanges()
+   en Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString)
+   en MisFinanzas.EntityFramework.MisFinanzasDbContext..ctor(String nameOrConnectionString) en C:\Users\Jairo\Documents\Visual Studio 2017\Projects\MisFinanzas\MisFinanzas.EntityFramework\EntityFramework\MisFinanzasDbContext.cs:línea 29
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   en System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   en Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   en Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   en Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   en Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   en Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   en Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   en Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   en Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   en Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   en Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   en Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   en Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   en Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   en Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   en Castle.Windsor.WindsorContainer.Resolve(Type service, IDictionary arguments)
+   en Castle.Windsor.WindsorContainer.Resolve(Type service, Object argumentsAsAnonymousType)
+   en Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   en Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   en Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   en Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide)
+   en Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide)
+   en Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   en Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context_callback()
+   en Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_3.InvokeMethodOnTarget()
+   en Castle.DynamicProxy.AbstractInvocation.Proceed()
+   en Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   en Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   en Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   en Castle.DynamicProxy.AbstractInvocation.Proceed()
+   en Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context()
+   en Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   en Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table_callback()
+   en Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_3.InvokeMethodOnTarget()
+   en Castle.DynamicProxy.AbstractInvocation.Proceed()
+   en Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   en Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   en Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   en Castle.DynamicProxy.AbstractInvocation.Proceed()
+   en Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table()
+   en Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll_callback()
+   en Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_3.InvokeMethodOnTarget()
+   en Castle.DynamicProxy.AbstractInvocation.Proceed()
+   en Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   en Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   en Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   en Castle.DynamicProxy.AbstractInvocation.Proceed()
+   en Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll()
+   en Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   en Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   en Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   en Castle.DynamicProxy.AbstractInvocation.Proceed()
+   en Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   en Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   en Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   en Castle.DynamicProxy.AbstractInvocation.Proceed()
+   en Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   en Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__13_0()
+   en System.Threading.Tasks.Task`1.InnerInvoke()
+   en System.Threading.Tasks.Task.Execute()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   en Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   en System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   en System.Threading.Tasks.Task.Execute()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   en Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   en Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   en Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+DEBUG 2017-04-17 12:29:31,125 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-04-17 12:29:31,140 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-04-17 12:29:31,146 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MisFinanzas.Web.MisFinanzasWebModule, MisFinanzas.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:29:31,148 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MisFinanzas.MisFinanzasDataModule, MisFinanzas.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:29:31,148 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:29:31,148 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:29:31,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:29:31,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:29:31,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MisFinanzas.MisFinanzasCoreModule, MisFinanzas.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:29:31,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MisFinanzas.MisFinanzasApplicationModule, MisFinanzas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:29:31,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:29:31,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MisFinanzas.Api.MisFinanzasWebApiModule, MisFinanzas.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:29:31,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:29:31,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:29:31,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:29:31,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:29:31,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:29:31,154 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-04-17 12:29:31,768 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-17 12:29:31,769 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-17 12:29:31,769 [1    ] o.Configuration.LanguageManagementConfig - Converted MisFinanzas (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-17 12:29:31,769 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-17 12:29:32,192 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MisFinanzas.EntityFramework.MisFinanzasDbContext, MisFinanzas.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 12:29:34,376 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-04-17 12:29:34,384 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-04-17 12:29:34,386 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-04-17 12:29:34,388 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MisFinanzas
+DEBUG 2017-04-17 12:29:34,389 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-04-17 12:29:34,486 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-04-17 12:29:34,550 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-04-17 12:29:34,550 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MisFinanzas.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-04-17 12:29:34,553 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MisFinanzas.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-04-17 12:29:34,553 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MisFinanzas.Users.Dto.CreateUserInput
+DEBUG 2017-04-17 12:29:34,554 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MisFinanzas.Users.Dto.UserListDto
+DEBUG 2017-04-17 12:29:34,554 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MisFinanzas.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-04-17 12:29:34,554 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MisFinanzas.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-04-17 12:29:34,554 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MisFinanzas.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-04-17 12:29:36,410 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MisFinanzas.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-04-17 12:29:36,412 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MisFinanzas.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-04-17 12:29:36,413 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MisFinanzas.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-04-17 12:29:36,414 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MisFinanzas.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-04-17 14:10:35,024 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-04-17 14:10:36,756 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-04-17 14:10:36,762 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MisFinanzas.Web.MisFinanzasWebModule, MisFinanzas.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 14:10:36,764 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MisFinanzas.MisFinanzasDataModule, MisFinanzas.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 14:10:36,765 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 14:10:36,765 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 14:10:36,765 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 14:10:36,765 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 14:10:36,765 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MisFinanzas.MisFinanzasCoreModule, MisFinanzas.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 14:10:36,766 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MisFinanzas.MisFinanzasApplicationModule, MisFinanzas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 14:10:36,766 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 14:10:36,766 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MisFinanzas.Api.MisFinanzasWebApiModule, MisFinanzas.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 14:10:36,766 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 14:10:36,766 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 14:10:36,767 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 14:10:36,767 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 14:10:36,767 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 14:10:36,770 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-04-17 14:10:39,419 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-17 14:10:39,420 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-17 14:10:39,420 [1    ] o.Configuration.LanguageManagementConfig - Converted MisFinanzas (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-17 14:10:39,420 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-04-17 14:10:40,243 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MisFinanzas.EntityFramework.MisFinanzasDbContext, MisFinanzas.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-04-17 14:10:41,464 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-04-17 14:10:41,471 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-04-17 14:10:41,492 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-04-17 14:10:41,504 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MisFinanzas
+DEBUG 2017-04-17 14:10:41,505 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-04-17 14:10:41,620 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-04-17 14:10:41,688 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-04-17 14:10:41,688 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MisFinanzas.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-04-17 14:10:41,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MisFinanzas.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-04-17 14:10:41,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MisFinanzas.Users.Dto.CreateUserInput
+DEBUG 2017-04-17 14:10:41,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MisFinanzas.Users.Dto.UserListDto
+DEBUG 2017-04-17 14:10:41,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MisFinanzas.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-04-17 14:10:41,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MisFinanzas.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-04-17 14:10:41,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MisFinanzas.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-04-17 14:10:43,685 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MisFinanzas.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-04-17 14:10:43,687 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MisFinanzas.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-04-17 14:10:43,688 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MisFinanzas.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-04-17 14:10:43,688 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MisFinanzas.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-04-17 14:11:31,337 [8    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   en Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   en System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   en System.Threading.Tasks.Task.Execute()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   en Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   en Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   en Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   en System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   en System.Threading.Tasks.Task.Execute()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   en Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   en Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-04-17 14:11:56,784 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"23fc1234-6e33-4fa9-a943-17c514105dcd","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-04-17T14:11:56.7776455-05:00","Properties":{}}
+DEBUG 2017-04-17 14:11:56,960 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 23fc1234-6e33-4fa9-a943-17c514105dcd
+WARN  2017-04-17 14:12:03,219 [15   ] nanzas.Web.Controllers.AccountController - ¡Error de inicio de sesion!
+Abp.UI.UserFriendlyException: ¡Error de inicio de sesion!
+   en MisFinanzas.Web.Controllers.AccountController.<GetLoginResultAsync>d__11.MoveNext() en C:\Users\Jairo\Documents\Visual Studio 2017\Projects\MisFinanzas\MisFinanzas.Web\Controllers\AccountController.cs:línea 116
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   en MisFinanzas.Web.Controllers.AccountController.<Login>d__10.MoveNext() en C:\Users\Jairo\Documents\Visual Studio 2017\Projects\MisFinanzas\MisFinanzas.Web\Controllers\AccountController.cs:línea 86
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-04-17 14:14:04,289 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 23fc1234-6e33-4fa9-a943-17c514105dcd
+DEBUG 2017-04-17 14:14:05,083 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"eefe57bc-eba3-41c3-a98d-1cad8a1ec0f5","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-04-17T14:14:05.0833491-05:00","Properties":{}}
+DEBUG 2017-04-17 14:14:05,103 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: eefe57bc-eba3-41c3-a98d-1cad8a1ec0f5
+DEBUG 2017-04-17 14:14:30,111 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: eefe57bc-eba3-41c3-a98d-1cad8a1ec0f5
+DEBUG 2017-04-17 14:14:30,753 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"845952cf-dc51-4e40-ae9f-caf6f179d255","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-04-17T14:14:30.7529404-05:00","Properties":{}}
+DEBUG 2017-04-17 14:14:30,771 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 845952cf-dc51-4e40-ae9f-caf6f179d255
+WARN  2017-04-17 14:14:40,055 [30   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   en Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   en System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   en System.Threading.Tasks.Task.Execute()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   en Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   en Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: El usuario actual no ha iniciado sesión en la aplicación!
+   en Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   en System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   en System.Threading.Tasks.Task.Execute()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   en Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   en Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-04-17 14:14:40,360 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 845952cf-dc51-4e40-ae9f-caf6f179d255
+DEBUG 2017-04-17 14:14:41,032 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"dc1b1a6c-2ed9-484a-b568-8caa3c688595","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-04-17T14:14:41.0325114-05:00","Properties":{}}
+DEBUG 2017-04-17 14:14:41,051 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: dc1b1a6c-2ed9-484a-b568-8caa3c688595
+DEBUG 2017-04-17 14:14:42,992 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: dc1b1a6c-2ed9-484a-b568-8caa3c688595
+DEBUG 2017-04-17 14:14:43,273 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6e645046-702f-46f2-b52c-6b0de8a86e64","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-04-17T14:14:43.2734427-05:00","Properties":{}}
+DEBUG 2017-04-17 14:14:43,277 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 6e645046-702f-46f2-b52c-6b0de8a86e64
+DEBUG 2017-04-17 14:14:50,390 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 6e645046-702f-46f2-b52c-6b0de8a86e64
+DEBUG 2017-04-17 14:14:50,961 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ce1cf2be-eed5-411c-b9e4-8c830cf66e28","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-04-17T14:14:50.9483025-05:00","Properties":{}}
+DEBUG 2017-04-17 14:14:50,970 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ce1cf2be-eed5-411c-b9e4-8c830cf66e28
+DEBUG 2017-04-17 14:14:52,558 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ce1cf2be-eed5-411c-b9e4-8c830cf66e28
